@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Producer Player</title>
+  <link rel="stylesheet" href="player.css">
+</head>
+<body>
+  <h1>Producer Player</h1>
+  <div class="controls">
+    <label for="playlist-name">Playlist-Name:</label>
+    <input id="playlist-name" value="Mein Mix"/>
+    <input type="file" id="file-input" accept="audio/*" multiple />
+  </div>
+  <ul id="playlist"></ul>
+  <audio id="audio" controls></audio>
+  <script src="player.js"></script>
+</body>
+</html>
